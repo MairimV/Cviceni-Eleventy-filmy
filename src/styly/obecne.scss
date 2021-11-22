@@ -1,0 +1,27 @@
+// === velikost ===
+$sirka-obsahu: 50rem;
+$mezera-od-okraju: 1rem;
+$font: 'Roboto',
+sans-serif;
+// === barvy ===
+$hlavni-barva: #9c27b0;
+$doplnkova-barva: #3d5afe;
+$paticka-barva: #fafafa;
+$paticka-odkaz-barva:#444444;
+$paticka-nadpis-barva:#303030;
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: $font;
+    margin: 0;
+    display: grid;
+    min-height: 100vh;
+}
